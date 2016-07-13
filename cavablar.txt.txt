@@ -1,0 +1,55 @@
+﻿Düzgün və oxunaqlı CSS kodu yazmaq üçün lazım olabiləcək 10 qayda
+	1. reset.css 
+Bəzi "tag"-ləri istifadə edərkən onların "default" yəni üzərinə yazılmış xüsusiyyətləri
+olur. Onların hər birini ayrı-ayrı 0-lamaq əvəzinə hazır yazılmış reset.css alqoritmindən
+istifadə olunur.
+	2. Əlifba sırası ilə yazma. 
+Ən azından axtararkən daha az vaxt sərf olunur. 
+	3. "Comment" (Rəy). 
+Kodları yazarkən onlara fikrimizdə düşündüyümüz rəyləri yazmalıyıq ki, sonradan baxarkən
+bu lodu yazanda nə düşündüyümüzü xatırlaya bilək.
+	4. Kodların qısa şəkildə yazılması.
+	5. HTML hissəni yazmadan css kodlara keçməmək.  
+	6. HTML hissəsində lazım olanları yazmazdan əvvəl HEADER və FOOTER hissələrini də 
+ayırd etmək lazımdır. 
+	7. Klasları adlandırarkən hər klasa ayrıca ad və ya ümüumiyyətlə hər birinə 
+ad vermək qarışıqlıq yaradar.
+	8. Bəzi kodlar var ki, onlar ayrı-ayrı da yazıla bilir hansı ki yalnız birin 
+istifadə etdikdə lazım olur. Amma hər birini istifadə etmək lazım gəldikdə gərək bir 
+sətirdə yazasan. 
+
+---------------------------------------------------------------------------
+
+Font Awesome
+Font Awesome 439 ikondan ibarətdir. Tamamilə pulsuz istifadə etmək olar. İkonları istifadə
+etmək üçün Content Delivery Network (CDN) lazımdır. Şəbəkəsiz halda istifadə edə 
+bilməyiniz üçün ikonlar paketin yükləmək lazımdır. 
+Paket yüklənir link ilə əlaqələndirilir və istifadə etməkdə azadsınız.
+
+---------------------------------------------------------------------------
+
+Azərbaycan şriftlərini dəstəkləyən Fontlar
+	1.Arial
+	2.Barmeno
+	3.Cambria
+	4.ComicSans
+	5.Dessert
+	6.Fuel
+	7.GaramondUS
+	8.Handicraft
+	9.Jokerman
+	10.Latino
+
+İstifadə qaydası:
+	1.arxiv faylını yükləmək
+	2.fayli üzərində işlədiyimiz qovluğa əlavə etmək
+	3.daha sonra css faylini aciriq  orada
+	 @font-face { 
+	font-family: Arial;
+	src: url(ünvanı yazırıq)
+	}
+	4.istifadə edəcəyimiz yerdə bu kodu yazırıq
+	font-family: 'Arial',sans-serif,arial;
+	5.və ya
+ 	html,body{ font-family: 'Arial',sans-serif; }
+--------------
